@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav nav-pills nav-fill bg-light p-2">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Juego ABC</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Juego BCA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ahorcado</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Juego CAB</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="container-fluid bg-dark text-white h3 d-flex justify-content-center p-3">¡Ahorcado de películas!</div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <image src="img/lifes-7.png" alt="Ahorcado" id="hangman-image" height="300px;"></image>
+                <p class="h1 text-center" id="game-over">Vidas: </p>
+            </div>
+            <div class="col-md-12 col-lg-8 pt-5">
+                <div class="row pt-5" id="movie">
+                </div>
+            </div>
+            <div class="col-lg-12 col-sm-12 d-flex justify-content-end">
+               <div class="container-fluid bg-warning  d-flex justify-content-center align-items-center">
+                   Para un mejor manejo, las películas se ingresaron sin acentos. Algunas películas están en otros idiomas D:
+               </div>
+                <button class="btn btn-primary" id="btn-init">Nueva película</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="page.js"></script>
+</body>
+
+</html>
